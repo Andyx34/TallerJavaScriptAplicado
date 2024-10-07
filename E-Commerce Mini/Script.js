@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function addToCart(name, price) {
       const product = cart.find(item => item.name === name);
       if (product) {
-        product.quantity++;
+        product.quantityz++;
       } else {
         cart.push({ name, price, quantity: 1 });
       }
