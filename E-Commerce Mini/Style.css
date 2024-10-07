@@ -76,11 +76,11 @@ h2 {
 
 button.add-to-cart {
   margin-top: 10px;
-  background-color: blueviolet;
+  background-color: rgb(140, 62, 212);
   color: #fff;
   border: none;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -98,7 +98,7 @@ button.add-to-cart {
 button#checkout {
   width: 100%;
   padding: 10px;
-  background-color: #3498db;
+  background-color: #34c2db;
   color: white;
   border: none;
   border-radius: 5px;
