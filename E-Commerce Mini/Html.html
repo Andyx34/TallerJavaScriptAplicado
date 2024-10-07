@@ -15,7 +15,7 @@
   </header>
 
   <h2>Menú</h2>
-  
+  <div class="main-content">
   <div class="product-list">
     <div class="product">
       <img src="img/Limonada.jpg" alt="Limonada">
@@ -88,15 +88,16 @@
   </div>
 
 
-  <h2>Tu Carrito</h2>
-  <div id="cart-items">
-    <p>El carrito está vacío.</p>
+  <div class="cart">
+    <h2>Tu Carrito</h2>
+    <div id="cart-items">
+      <p>El carrito está vacío.</p>
+    </div>
+    <h3>Total: $<span id="total-price">0.000</span></h3>
+    <button id="checkout" style="display: none;">Checkout</button>
   </div>
+</div>
 
-  <h3>Total: $<span id="total-price">0.000</span></h3>
-<button id="checkout" style="display: none;">Checkout</button>
-
-
-  <script src="script.js"></script>
+  <script src="Script.js"></script>
 </body>
 </html>
